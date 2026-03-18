@@ -1,43 +1,13 @@
 # burnoutradar
 
-**BurnoutRadar — AI Burnout Predictor. Detect burnout risk from work patterns and communication analysis.**
+Stub Python project. Described as an "AI burnout predictor" that detects burnout risk from work patterns and communication analysis, but none of that functionality exists.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
+## What's actually here
 
-## Install
-```bash
-pip install -e ".[dev]"
-```
+A single class in `src/core.py` (Burnoutradar) with placeholder methods (detect, scan, monitor, alert, get_report, configure) that each return a fixed dictionary without doing any real work. There is no burnout detection, no communication analysis, no work pattern monitoring - just stubs.
 
-## Quick Start
-```python
-from src.core import Burnoutradar
- instance = Burnoutradar()
-r = instance.detect(input="test")
-```
+The project uses only Python standard library imports (time, logging, json, typing). No ML or NLP libraries are present.
 
-## CLI
-```bash
-python -m src status
-python -m src run --input "data"
-```
+## Status
 
-## API
-| Method | Description |
-|--------|-------------|
-| `detect()` | Detect |
-| `scan()` | Scan |
-| `monitor()` | Monitor |
-| `alert()` | Alert |
-| `get_report()` | Get report |
-| `configure()` | Configure |
-| `get_stats()` | Get stats |
-| `reset()` | Reset |
-
-## Test
-```bash
-pytest tests/ -v
-```
-
-## License
-(c) 2026 Officethree Technologies. All Rights Reserved.
+Scaffolding only. No working burnout prediction functionality exists.
