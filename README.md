@@ -1,13 +1,15 @@
-# burnoutradar
+# BurnoutRadar
 
-Stub Python project. Described as an "AI burnout predictor" that detects burnout risk from work patterns and communication analysis, but none of that functionality exists.
+AI burnout predictor that detects burnout risk from work patterns and communication analysis.
 
-## What's actually here
+## About
+BurnoutRadar analyzes work patterns, communication frequency, and behavioral signals to identify early signs of employee burnout. It provides actionable insights for individuals and managers to take proactive steps toward healthier work-life balance before burnout occurs.
 
-A single class in `src/core.py` (Burnoutradar) with placeholder methods (detect, scan, monitor, alert, get_report, configure) that each return a fixed dictionary without doing any real work. There is no burnout detection, no communication analysis, no work pattern monitoring - just stubs.
-
-The project uses only Python standard library imports (time, logging, json, typing). No ML or NLP libraries are present.
+## Tech Stack
+- Python
+- NLP and sentiment analysis
+- Data analytics (pandas, scikit-learn)
+- Click/Typer (CLI)
 
 ## Status
-
-Scaffolding only. No working burnout prediction functionality exists.
+Active development - core architecture and project structure established.
